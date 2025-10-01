@@ -2,11 +2,11 @@
 package ec.edu.espch.primerproyectoa;
 
 
-public class Curso {
+public class Cursos {
     //Atributos
     public String nombre;
     public int codigo;
-    public String lista;
+    public Estudiantes[] listaEstudiantes;
     //Metodos
      //Metodos
     public void agregarEstudiante()
